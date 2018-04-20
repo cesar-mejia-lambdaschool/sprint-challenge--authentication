@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
-const Schema = mongoose.Schema; //! shortcut
+const Schema = mongoose.Schema; //* shortcut
 
 const SALT_ROUNDS = 11;
 
