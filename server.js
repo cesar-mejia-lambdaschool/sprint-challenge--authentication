@@ -1,5 +1,4 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const routes = require('./api/routes/routes');
@@ -11,7 +10,7 @@ const corsOptions = {
   // then pass this object to the cors() function
 };
 
-server.use(bodyParser.json());
+server.use(express.json());
 server.use(cors());
 
 routes(server);
