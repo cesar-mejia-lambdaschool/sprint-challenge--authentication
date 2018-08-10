@@ -1,24 +1,29 @@
 {
-  "name": "Sprint-Challenge-Authentication",
+  "name": "auth-challenge",
   "version": "1.0.0",
-  "description": "* **DISCLAIMER** Authentication is a subject that many people spend a large amount of their careers learning about. This is not something we expect you to have a mastery over, rather, we're preparing you to be able have an intelligent.",
-  "main": "server.js",
+  "description": "Authentication Sprint Challenge",
+  "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
+=======
+    "start": "nodemon index.js"
+>>>>>>> upstream/master
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LambdaSchool/Sprint-Challenge-Authentication.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lambda School",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LambdaSchool/Sprint-Challenge-Authentication/issues"
   },
   "homepage": "https://github.com/LambdaSchool/Sprint-Challenge-Authentication#readme",
   "dependencies": {
+<<<<<<< HEAD
     "bcrypt": "^1.0.3",
     "cors": "^2.8.4",
     "express": "^4.16.2",
@@ -30,5 +35,17 @@
   },
   "devDependencies": {
     "nodemon": "^1.17.3"
+=======
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "knex": "^0.15.2",
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+>>>>>>> upstream/master
   }
 }
