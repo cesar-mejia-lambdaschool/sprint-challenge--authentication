@@ -7,8 +7,8 @@ module.exports = {
     useNullAsDefault: true, // used to avoid warning on console
     migrations: {
       directory: './database/migrations',
-      tableName: 'dbmigrations',
+      tableName: 'dbmigrations'
     },
-    seeds: { directory: './database/seeds' },
-  },
-};
+    seeds: { directory: './database/seeds' }
+  }
+}
